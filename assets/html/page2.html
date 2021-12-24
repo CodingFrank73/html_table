@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergebnisvorschau 2</title>
+    <style>
+        table {
+            margin-bottom: 50px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        th {
+            background: grey;
+        }
+
+        th,
+        td {
+            width: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <table>
+            <tr>
+                <th>comp</th>
+                <th>num</th>
+                <th>website</th>
+                <th>adress</th>
+            </tr>
+            <tr>
+                <td rowspan="2">comp 1</td>
+                <td>01234567890</td>
+                <td rowspan="2"><a href="#">Website1.1</a><br><br><a href="#">website1.2</a></td>
+                <td rowspan="2">adress1</td>
+            </tr>
+            <tr>
+                <td>01234567890</td>
+            </tr>
+            <tr>
+                <td>comp 2</td>
+                <td>01234567890</td>
+                <td><a href="#">Website1.1</a></td>
+                <td>adress2</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
